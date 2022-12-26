@@ -3,7 +3,6 @@ import "./App.css";
 import axios from "axios";
 import { Audio } from "react-loader-spinner";
 export default function Weather(props) {
-    
   function showForecast(response) {
     alert(
       `The temperature in ${response.data.name} is ${response.data.main.temp}`
@@ -20,7 +19,7 @@ export default function Weather(props) {
         height="200"
         width="800"
         radius="2"
-        color="blue"
+        color="orange"
         ariaLabel="loading"
         wrapperStyle
         wrapperClass
